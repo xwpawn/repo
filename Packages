@@ -1,152 +1,314 @@
-Package: com.spark.snowboard
-Name: SnowBoard
-Version: 1.5.37-Beta4-rootless
-Architecture: iphoneos-arm64
-Description: Snowboard
-Maintainer: SparkDev
-Author: Spark
+Package: com.mtac.ampere
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: MTAC
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.mtac.ampere_1.4_iphoneos-arm.deb
+Size: 101102
+MD5sum: ef2d38afc6b8be000639201acb83717b
+SHA1: 3fe45d65fa17a300d1cc455876895567c7e5f635
+SHA256: 7cd7b24e72e9a652f0d538bdf000f4578de611376ebb20837a6e138dc85d1e21
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/1.5.37-Beta4-rootless.deb
-Size: 1128570
-MD5sum: a7239a85eee273dc2f297878702a97b8
-SHA1: 1b3e80eb10ea03f6ed54f23262789ef37aa02656
-SHA256: 21c4686ced56eede121bc91efcaae27dc2c553857b565351361cd1ae772929d0
+Description: iOS 16 Style Battery Indicator
+Author: MTAC
+Name: Ampere
 
-Package: com.spark.snowboard.ui
-Name: SnowBoard UI Extension
-Version: 1.3.0~Beta2-rootless
-Architecture: iphoneos-arm64
-Description: Snowboard UI Extension
-Maintainer: SparkDev
-Author: Spark
-Section: SnowBoard Extensions
-Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: debs/1.3.0~Beta2-rootless.deb
-Size: 65132
-MD5sum: 5e7ffb5f6ee232d6ec7d266ae9f8a100
-SHA1: 4adfcba1ecb738d0c52a503e5cab4b82e62fa023
-SHA256: 3fdb54dd243811c2e3585dd902ac0b431f44685bf4223a540cc57cdbbdc3a03a
-
-Package: com.spark.snowboard.fonts
-Name: SnowBoard Fonts Extension
-Version: 1.1.0~Beta4-rootless
-Architecture: iphoneos-arm64
-Description: Snowboard Fonts Extension
-Maintainer: SparkDev
-Author: Spark
-Section: SnowBoard Extensions
-Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/1.1.0~Beta4-rootless.deb
-Size: 20312
-MD5sum: 4ffba8f73f3315a2a483b452b520d129
-SHA1: ac12c858be9fa5153836431f7371f34d78d30394
-SHA256: adb486617e2ce7d70bb989ac8450173e7d074433ea482f7c648bcfe9227d2a30
-
-Package: xyz.cypwn.solstice
-Name: Solstice
-Version: 3.0.6
-Architecture: iphoneos-arm64
-Description: iOS 18 icons for Snowboard
-Maintainer: CyPwn
-Author: Rifai
-Section: Theme
-Depends: com.anemonetheming.anemone, com.spark.snowboard
-Filename: debs/xyz.cypwn.solstice_3.0.6_iphoneos-arm64.deb
-Size: 60799804
-MD5sum: e22e430fe420a2b0792a5330b0c9f019
-SHA1: 37c3860daa5c71db27cbd0577eb4c983b39f27d5
-SHA256: 0675f2a547b5f0c04af16cf962fa087a4affc750a90713d7d8ccf78f82875a14
-
-Package: xyz.cypwn.jellyfish
-Name: JellyFish
-Version: 1.6.5
-Architecture: iphoneos-arm64
-Description: Nice lockscreen customization for Snowboard
-Maintainer: CyPwn
-Author: Justin Proulx and Ayden Panhuyzen
-Section: Theme
-Depends: com.anemonetheming.anemone, com.spark.snowboard
-Filename: debs/xyz.cypwn.jellyfish_1.6.5_iphoneos-arm64.deb
-Size: 117178
-MD5sum: b77dee13d03d68f464e42bfd4e25f915
-SHA1: fc32a3d7feb8ca8cd9f19c90cc958a34772a8883
-SHA256: b7e0ddcd21bf045ac02a0e03786ee09589ddde6ee381ab0c10a4476c30cca506
-
-Package: xyz.cypwn.classicplayer
-Name: ClassicPlayer
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Description: ipod style player
-Maintainer: CyPwn
-Author: Guillermo Moran
-Section: Apps
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/xyz.cypwn.classicplayer_1.0.3_iphoneos-arm64.deb
-Size: 57784406
-MD5sum: 5309f7e21fca87baeb6adcc919990a5d
-SHA1: 8083c2b87a1e275b50ac80b2c8f403bf682bc370
-SHA256: a27de6afde56637e9a2c3e4fb0f6b774756137c83a7f75403235c4526686714b
-
-Package: xyz.cypwn.anitime
-Name: AniTime
-Version: 1.0.1k
-Architecture: iphoneos-arm64
-Description: cute anime girls on lockscreen clocks
-Maintainer: CyPwn
-Author: Yan
-Section: Theme
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/xyz.cypwn.anitime_1.0.1k_iphoneos-arm64.deb
-Size: 598126
-MD5sum: 47096937b99c83703dfa6611d00e5a8e
-SHA1: 32cf4a5e687643489c3b06e7a5c1236868ce1726
-SHA256: 73b144e4c7d0fece45e0bef531b4b2b2b12dfde5479564a659eaf26f5e1ec699
-
-Package: xyz.skitty.ersatz
-Name: Ersatz
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Description: ersatz
-Maintainer: Skitty
-Author: Skitty
+Package: com.nahtedetihw.closeall
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Ethan Whited
+Installed-Size: 208
+Filename: ./debs/com.nahtedetihw.closeall_1.0_iphoneos-arm.deb
+Size: 21670
+MD5sum: 5a7729dd87d638fc3fe03f9ec4376c88
+SHA1: 0116c3e672a852b98aa8131c553b61af1232ffe5
+SHA256: ef97d1507493e4d2f453cd4048dd442c6c36c4f9ca29dd029b41a93debb5f69a
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/xyz.skitty.ersatz_1.0.1_iphoneos-arm64.deb
-Size: 48998
-MD5sum: a548cfa559e1bb3e8b2e5302f42de761
-SHA1: 3cb5d518df674ca62de15ed31f47b768c7b83bd5
-SHA256: ee2f1e4dd5afa99458fc5f7063bef437987906b48750a34162442fa05fcb3837
+Description: An awesome MobileSubstrate tweak!
+Author: Ethan Whited
+Name: CloseAll
 
-Package: com.p2kdev.tapticboard
-Name: TapticBoard
+Package: com.nahtedetihw.doodle
 Version: 1.2
 Architecture: iphoneos-arm64
-Description: TapticBoard
-Maintainer: P2KDev
-Author: P2KDev
+Maintainer: Ethan Whited
+Installed-Size: 4064
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.doodle_1.2_iphoneos-arm64.deb
+Size: 3622016
+MD5sum: e45422ff5342efbd7c93901f3de790db
+SHA1: 2619a4bc8d77ba288e694f61d48d7de2a624cf10
+SHA256: 4725c0170e89413308b8434e4f1e80fc7357880e628d87af76c9e45920aa656a
 Section: Tweaks
+Description: Unlock device using a doodle
+Author: Ethan Whited
+Name: Doodle
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.floatingdockxvi_2.3_iphoneos-arm.deb
+Size: 398704
+MD5sum: b839333068696a4c70f667ef43e10f33
+SHA1: fa849efb22843aa139b8df8917ef49d6175e18b0
+SHA256: 51af03d087b04d5856c4669f35ae5aa706eb54af85558fb11d0f9f17bd778004
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI
+
+Package: com.nahtedetihw.gesturesxv
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 2756
+Depends: mobilesubstrate
+Filename: ./debs/com.nahtedetihw.gesturesxv_1.6_iphoneos-arm64.deb
+Size: 2162250
+MD5sum: bb3616e0fe4ee30c20101d4adabbd8e1
+SHA1: 3bc01f69ed79827cc99d353078bac52ea065c9f8
+SHA256: 5e34b44fdfaa94be436d68cd96f90935b0bc665db7cc832a1b791193ef2b1c03
+Section: Tweaks
+Description: iPhone X gestures brought to older iPhones compatible with iOS 15
+Author: Ethan Whited
+Name: GesturesXV
+
+Package: com.p2kdev.tapticboard
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 396
 Depends: mobilesubstrate,firmware (>= 13.0)
-Filename: debs/com.p2kdev.tapticboard_1.2_iphoneos-arm64.deb
+Filename: ./debs/com.p2kdev.tapticboard_1.2_iphoneos-arm64.deb
 Size: 23512
 MD5sum: 6c971d2f61971bbf4b4ebf70440e9e42
 SHA1: 97e5403e1283c15802bcb6b4287d0f393302a29f
 SHA256: 042e39531613a43453aa1a4d9246e4b4ac013ef3910fd1f122d869b13804e32a
+Section: Tweaks
+Description: Taptic keyboard without any lag!
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.tapticboard
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.tapticboard/icon.png
+Name: TapticBoard
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.tapticboard.json
+
+Package: com.spark.ccmusicartwork
+Version: 2.4.0-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 656
+Depends: mobilesubstrate
+Filename: ./debs/CCMusicArtwork.deb
+Size: 254318
+MD5sum: 1b10d08b964469e9c7b902abbeb0b123
+SHA1: 408ae96d1e155272462516471e530df76bc53f86
+SHA256: be07beec084801d807a9922c2b985257b9df101c34aa0e12db2ce3ffa9618fdd
+Section: Tweaks
+Description: Shows album artwork behind the music module in the iOS 11-13 control center
+Author: Spark
+Name: CCMusicArtwork
+
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/1.5.37-Beta4-rootless.deb
+Size: 1128570
+MD5sum: a7239a85eee273dc2f297878702a97b8
+SHA1: 1b3e80eb10ea03f6ed54f23262789ef37aa02656
+SHA256: 21c4686ced56eede121bc91efcaae27dc2c553857b565351361cd1ae772929d0
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: com.spark.snowboard.fonts
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 392
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Filename: ./debs/1.1.0~Beta4-rootless.deb
+Size: 20312
+MD5sum: 4ffba8f73f3315a2a483b452b520d129
+SHA1: ac12c858be9fa5153836431f7371f34d78d30394
+SHA256: adb486617e2ce7d70bb989ac8450173e7d074433ea482f7c648bcfe9227d2a30
+Section: SnowBoard Extensions
+Description: Fonts for SnowBoard
+Author: Spark
+Name: SnowBoard Fonts Extension
+
+Package: com.spark.snowboard.ui
+Version: 1.3.0~Beta2-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 476
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: ./debs/1.3.0~Beta2-rootless.deb
+Size: 65132
+MD5sum: 5e7ffb5f6ee232d6ec7d266ae9f8a100
+SHA1: 4adfcba1ecb738d0c52a503e5cab4b82e62fa023
+SHA256: 3fdb54dd243811c2e3585dd902ac0b431f44685bf4223a540cc57cdbbdc3a03a
+Section: SnowBoard Extensions
+Description: UI Extension for SnowBoard
+Author: Spark
+Name: SnowBoard UI Extension
+
+Package: com.yan.anitime
+Version: 1.0.1k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/xyz.cypwn.anitime_1.0.1k_iphoneos-arm64.deb
+Size: 598126
+MD5sum: 47096937b99c83703dfa6611d00e5a8e
+SHA1: 32cf4a5e687643489c3b06e7a5c1236868ce1726
+SHA256: 73b144e4c7d0fece45e0bef531b4b2b2b12dfde5479564a659eaf26f5e1ec699
+Section: Tweaks
+Description: Animated anime characters as your clock digits.
+Author: yan
+Depiction: https://repo.cypwn.xyz/depiction/3117
+Icon: https://repo.cypwn.xyz/packages/AniTime-Rootless/icon.png
+Name: AniTime
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3117
 
 Package: dev.traurige.batterybuddy
-Name: BatteryBuddy
 Version: 1.3.5
 Architecture: iphoneos-arm64
-Description: BatteryBuddy
-Maintainer: kaethchen
-Author: kaethchen
-Section: Tweaks
-Depends: 
-Filename: debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64.deb
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 432
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64.deb
 Size: 36712
 MD5sum: cc6961e7809026f7a49c102a395509e4
 SHA1: a294d55e74a07a4aef183eff7aa09fe6d092908c
 SHA256: f8a4b362aca4dafa42b14de3cee1873c607c2f8863c7381c26919afb0c0e0705
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Name: BatteryBuddy
 
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 877
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_1.4.1_iphoneos-arm.deb
+Size: 241122
+MD5sum: 2ea1294cba60bdf6e97ffa3dd7e73a33
+SHA1: 7455549d3cb75f50d524c433ff2a3f6c3743799d
+SHA256: 1f0a58d60dc19c2e7d7d4a731a1943504d206699bce173cb9d27dc2fd8d575a6
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
 
+Package: xyz.cypwn.cardculator
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Installed-Size: 920
+Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
+Filename: ./debs/xyz.cypwn.cardculator_2.1_iphoneos-arm.deb
+Size: 229876
+MD5sum: 3f7149ad4548d048e11d992eee640529
+SHA1: 41de2b82fc735e3fa65ab64aefef7e2d335e304c
+SHA256: 965c3520e05075af7b3c5502b3e287afdc8f576b8f0a5ea537bee5686c63e75d
+Section: Tweaks
+Description: Calculator, but smaller
+Author: sourcelocation
+Depiction: https://repo.cypwn.xyz/depiction/1368
+Name: Cardculator
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1368
+
+Package: xyz.cypwn.classicplayer
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 87822
+Depends: mobilesubstrate
+Filename: ./debs/xyz.cypwn.classicplayer_1.0.3_iphoneos-arm64.deb
+Size: 57784406
+MD5sum: 5309f7e21fca87baeb6adcc919990a5d
+SHA1: 8083c2b87a1e275b50ac80b2c8f403bf682bc370
+SHA256: a27de6afde56637e9a2c3e4fb0f6b774756137c83a7f75403235c4526686714b
+Section: Multimedia
+Description: The Nostalgic Click Wheel iPod Classic Simulator for iOS 15+
+Author: Guillermo Moran
+Depiction: https://repo.cypwn.xyz/depiction/1735
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/classicplayer.png
+Name: ClassicPlayer
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1735
+
+Package: xyz.cypwn.jellyfish
+Version: 1.6.5
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1), firmware (>= 15.0)
+Filename: ./debs/xyz.cypwn.jellyfish_1.6.5_iphoneos-arm64.deb
+Size: 117178
+MD5sum: b77dee13d03d68f464e42bfd4e25f915
+SHA1: fc32a3d7feb8ca8cd9f19c90cc958a34772a8883
+SHA256: b7e0ddcd21bf045ac02a0e03786ee09589ddde6ee381ab0c10a4476c30cca506
+Section: Tweaks
+Description: Natural, Simple, Beautiful. Redesign your Lock screen with Jellyfish.
+Author: Justin Proulx and Ayden Panhuyzen
+Depiction: https://chariz.com/buy/jellyfish
+Icon: https://cdn.chariz.cloud/icon/jellyfish/icon@3x.png
+Name: Jellyfish
+Sileodepiction: https://repo.chariz.com/api/sileo/package/xyz.royalapps.jellyfish/depiction.json
+
+Package: xyz.cypwn.solstice
+Version: 3.0.6
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Filename: ./debs/xyz.cypwn.solstice_3.0.6_iphoneos-arm64.deb
+Size: 60799804
+MD5sum: e22e430fe420a2b0792a5330b0c9f019
+SHA1: 37c3860daa5c71db27cbd0577eb4c983b39f27d5
+SHA256: 0675f2a547b5f0c04af16cf962fa087a4affc750a90713d7d8ccf78f82875a14
+Section: Themes
+Description: Solstice Theme 3600 icons
+Author: Rifai
+Depiction: https://repo.cypwn.xyz/depiction/3103
+Icon: https://repo.cypwn.xyz/packages/Solstice-Rootless/icon.png
+Name: Solstice
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3103
+
+Package: xyz.skitty.ersatz
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 504
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.skitty.ersatz_1.0.1_iphoneos-arm64.deb
+Size: 48998
+MD5sum: a548cfa559e1bb3e8b2e5302f42de761
+SHA1: 3cb5d518df674ca62de15ed31f47b768c7b83bd5
+SHA256: ee2f1e4dd5afa99458fc5f7063bef437987906b48750a34162442fa05fcb3837
+Section: Tweaks
+Description: Replace any text, system-wide!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.ersatz/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
+Name: Ersatz
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.ersatz/sileo.json
 
