@@ -315,6 +315,24 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/classicplayer.png
 Name: ClassicPlayer
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1735
 
+Package: xyz.cypwn.erika
+Version: 1.13.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/xyz.cypwn.erika_1.13.3_iphoneos-arm64.deb
+Size: 128520
+MD5sum: 32d28c8e77673d59429c107b0bca9946
+SHA1: d095f6ccbb3879b298c1ef9f6324d67c441a5ba9
+SHA256: 04b3eb33c004dec7a740dc66e677df11e36cb13b531871d948f8a645257fc1cb
+Section: Tweaks
+Description: Piracy downloader for Saily, Sileo, and Zebra
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1966
+Icon: https://paisseon.github.io/icons/Erika.png
+Name: Erika
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1966
+
 Package: xyz.cypwn.jellyfish
 Version: 1.6.5
 Architecture: iphoneos-arm64
