@@ -201,6 +201,63 @@ Description: Battery indicator, but cute
 Author: Traurige & neilsardesai <hello@traurige.dev>
 Name: BatteryBuddy
 
+Package: emt.paisseon.erika
+Version: 1.13.3
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 368
+Depends: mobilesubstrate, lilliana.async | firmware (>= 15.0)
+Filename: ./debs/emt.paisseon.erika_1.13.3_iphoneos-arm64.deb
+Size: 92162
+MD5sum: bab331e4f39bc5a4f9e753d01b87a877
+SHA1: 3b544573d3c9d037f4b97685ab7f1293fd1a9d45
+SHA256: 66270edb31c79f000d5059266f0d5ca53dac2ef989f878b40707a5f3318e21c0
+Section: Tweaks (Piracy)
+Description: Piracy downloader for Sileo
+Author: Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Erika.json&name=Erika&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Erika.png
+Name: Erika
+Sileodepiction: https://paisseon.github.io/depictions/Erika.json
+
+Package: emt.paisseon.satella
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: ./debs/emt.paisseon.satella_1.8.1_iphoneos-arm64.deb
+Size: 95982
+MD5sum: e951c9c54b7b646d3c58aa3d2d3946a5
+SHA1: b1a2a6e9c10ac9cfb62c31a6bfccff90e96111f7
+SHA256: cadbe4d4bf8e4e9317d450792e0cf1548c288b9016dee3241e72ee4bdeedd20d
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
+Package: lilliana.ishtar
+Version: 0.0.7
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 456
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/lilliana.ishtar_0.0.7_iphoneos-arm64.deb
+Size: 73950
+MD5sum: 81f5a935ba912b93e3c271cb2109d9bd
+SHA1: 86b979e9d2537e790ea7b047690c33e530d4eaae
+SHA256: 7f5172b18b1dda641bad40c8fc9baa52d1f66cba848d193e55541dee42512056
+Section: Tweaks (Piracy)
+Description: iOSGods VIP cheats for free
+Author: Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Ishtar.json&name=Ishtar&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Ishtar.png
+Name: Ishtar
+Sileodepiction: https://paisseon.github.io/depictions/Ishtar.json
+
 Package: me.lau.atria
 Version: 1.4.1
 Architecture: iphoneos-arm
